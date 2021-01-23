@@ -30,6 +30,16 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 
 /***/ }),
 
+/***/ "./src/styles.css":
+/*!************************!*\
+  !*** ./src/styles.css ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack-inicial/./src/styles.css?");
+
+/***/ }),
+
 /***/ "./src/css/componentes.css":
 /*!*********************************!*\
   !*** ./src/css/componentes.css ***!
@@ -56,7 +66,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_componentes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/componentes */ \"./src/js/componentes.js\");\n\r\n\r\nconst nombre = \"Fernando\";\r\n\r\n(0,_js_componentes__WEBPACK_IMPORTED_MODULE_0__.saludar)(nombre);\r\n\n\n//# sourceURL=webpack://webpack-inicial/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_componentes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/componentes */ \"./src/js/componentes.js\");\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n\r\n\r\n\r\nconst nombre = \"Fernando\";\r\n\r\n(0,_js_componentes__WEBPACK_IMPORTED_MODULE_0__.saludar)(nombre);\r\n\n\n//# sourceURL=webpack://webpack-inicial/./src/index.js?");
 
 /***/ }),
 
